@@ -1,8 +1,6 @@
 .generic-container{    
     width: 80%;
-    height: 150px;
-    display: flex;
-    padding: 8px;
+    height: 100px;
 
     border: 2px solid var(--main-neutral-300);
 }
