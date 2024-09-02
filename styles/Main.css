@@ -1,18 +1,24 @@
-body{
-    background-color: var(--main-neutral-100);
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
+body {
+  background-color: var(--main-neutral-100);
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
 }
 
-.generic-description{
-    color: var(--main-neutral-300);
-    
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    
-    font-family: SUSE, Roboto, sans-serif;
-    font-size: 14px;
+.generic-description {
+  color: var(--main-neutral-300);
+
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+
+  margin: 0;
+  padding-inline: 12px;
+
+  font-family: SUSE, Roboto, sans-serif;
+  font-size: 14px;
 }
